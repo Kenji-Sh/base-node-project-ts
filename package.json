@@ -1,0 +1,8 @@
+{
+  "name": "base-node-project-ts",
+  "version": "1.0.0",
+  "description": "Base config for node project with Typescript",
+  "main": "index.js",
+  "author": "Kenji",
+  "license": "MIT"
+}
