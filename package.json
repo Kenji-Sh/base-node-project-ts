@@ -4,6 +4,8 @@
   "description": "Base config for node project with Typescript",
   "main": "./src/app.ts",
   "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/app.js",
     "start:dev": "nodemon ./src/app.ts",
     "husky:prepare": "husky install",
     "test": "jest --passWithNoTests",
