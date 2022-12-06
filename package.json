@@ -4,7 +4,8 @@
   "description": "Base config for node project with Typescript",
   "main": "./src/app.ts",
   "scripts": {
-    "start:dev": "nodemon ./src/app.ts"
+    "start:dev": "nodemon ./src/app.ts",
+    "husky:prepare": "husky install"
   },
   "author": "Kenji",
   "license": "MIT",
@@ -14,6 +15,8 @@
     "@typescript-eslint/parser": "^5.45.1",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.0",
     "ts-node": "^10.9.1",
