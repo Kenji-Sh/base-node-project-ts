@@ -4,5 +4,9 @@
   "description": "Base config for node project with Typescript",
   "main": "index.js",
   "author": "Kenji",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.11",
+    "typescript": "^4.9.3"
+  }
 }
