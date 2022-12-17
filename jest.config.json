@@ -6,7 +6,7 @@
   "coverageDirectory": "coverage",
   "testEnvironment": "node",
   "transform": {
-    "^.+\\.ts$": ["@swc/jest"]
+    "^.+\\.ts$": ["ts-jest"]
   },
   "moduleNameMapper": {
     "@/(.*)": "<rootDir>/src/$1"
